@@ -1,0 +1,10 @@
+<h1>Flower List</h1>
+<div ng-repeat="flower in flowers">
+  <div class="list-group">
+    <div class="list-group-item">
+      <h3 class="list-group-item-heading bg-success">{{flower.title}}</h3>
+      <h5 class="list-group-item-text">Guide Type: {{flower.type}}</h5>
+      <h5 class="list-group-item-text"><strong>${{flower.price.toFixed(2)}}</strong></h5>
+    </div>
+  </div>
+</div>

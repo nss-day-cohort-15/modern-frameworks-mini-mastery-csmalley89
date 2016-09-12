@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Power</title>
+  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body ng-app="FlowerApp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" ng-view></div>
+    </div>
+  </div>
+
+<!-- 3rd party libs -->
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js">
+</script>
+<script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/firebase/firebase.js"></script>
+<script type="text/javascript" src="lib/bower_components/angularfire/dist/angularfire.min.js"></script>
+<!-- App specific files -->
+<script type="text/javascript" src="app/app.js"></script>
+<!-- providers -->
+<script type="text/javascript" src="app/factories/FlowerFactory.js"></script>
+<!-- controllers -->
+<script type="text/javascript" src="app/controllers/flowerCtrl.js"></script>
+</body>
+</html>
